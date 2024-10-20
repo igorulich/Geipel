@@ -37,6 +37,7 @@ header.header {
   font-size: calc(12px + 0.625vw);
   letter-spacing: 0.2px;
 }
+
 .footer-content-text p,
 .header-content p {
   padding-top: 2%;
@@ -95,11 +96,13 @@ display: flex;
 justify-content: center;
 padding: 1%;
 }
+
 @media (width <=992px){
   .tab-images {
  padding-left: 21px;
     }
 }
+
 .tab-images img {
   min-height: 160px;
   min-width: 180px;
