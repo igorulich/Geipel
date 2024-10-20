@@ -1,0 +1,14 @@
+section.content {
+ @include relative;
+
+ padding: 1% 0 3%;
+}
+
+.content-tab{
+  margin-bottom: 1%;
+
+  @include relative;
+}
+.content-default h3{
+  display: none;
+}
